@@ -9,3 +9,8 @@ Direct link to the file: https://github.com/myh1000/BetterDiscord-Fukkireta-Them
 4. Make sure the extension is set as .theme.css
 5. Restart Discord (CMD+R or CTRL+R)
 6. Open Discord Settings>BetterDiscord>Themes>Enable the theme
+7. Open Discord Settings>BetterDiscord>Custom CSS and past the following: 
+```
+.layers { background: transparent !important; }
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/jSRNe"><a href="//imgur.com/jSRNe"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+```
