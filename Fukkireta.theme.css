@@ -1163,8 +1163,12 @@ a:link {
     background: #FFC0CB;
 }
 .search-bar.search-bar-light {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(88, 61, 123, 0.6);
     box-shadow: none;
+    border: 1px solid #FFC0CB !important;
+}
+.search .DraftEditor-root {
+    margin-top: -1px;
 }
 .form .Select-control {
     border: 1px solid #8282ff;
@@ -1415,12 +1419,8 @@ a:link {
 .channel-members .member .member-username {
     font-size: 14px;
 }
-.member-username-inner[data-reactid*="102180837625200640"]:after {
-    content: "CreamCheese";
-    color: #E81C4F;
-    margin-left: 0px;
-    font-weight: 900;
-    font-size: 120%;
+.member-username {
+    color: white;
 }
 .channel-members .avatar-small .status {
     border-color: rgba(0, 0, 0, 0.7) !important;
