@@ -1,5 +1,4 @@
-//META{"name":"Fukkireta","description":"Fukkireta Gif Theme","author":"myh1000 (C.C.)","version":"1.1"}*//
-
+//META{"name":"Fukkireta","description":"Fukkireta gif theme","author":"myh1000 (C.C.)","version":"1.0"}*//
 {} /* Background */
 .app {
     background-image: url("https://i.imgur.com/PgG54zR.gif");
@@ -1685,12 +1684,6 @@ a:link {
     border-bottom: none;
     border-radius: 3px;
     box-shadow: none;
-}
-.form .control-group input[type=email],
-.form .control-group input[type=password],
-.form .control-group input[type=text],
-.form .control-group textarea::-webkit-input-placeholder {
-    color: #fff;
 }
 .form .control-group input[type=email]:focus,
 .form .control-group input[type=password]:focus,
