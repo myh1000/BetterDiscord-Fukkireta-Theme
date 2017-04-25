@@ -1,4 +1,5 @@
-//META{"name":"Fukkireta","description":"Fukkireta gif theme","author":"myh1000 (C.C.)","version":"1.0"}*//
+//META{"name":"Fukkireta","description":"Fukkireta Gif Theme","author":"myh1000 (C.C.)","version":"1.1"}*//
+
 {} /* Background */
 .app {
     background-image: url("https://i.imgur.com/PgG54zR.gif");
@@ -22,9 +23,6 @@
 }
 .search-result .message-group .comment .markup {
     color: #737f8d !important;
-}
-.message-group .comment .markup {
-    color: #FFF;
 }
 .chat .content {
     box-shadow: inset 10px 0px 5px -6px rgb(121, 110, 154);
@@ -1682,10 +1680,17 @@ a:link {
 .form .control-group input[type=password],
 .form .control-group input[type=text],
 .form .control-group textarea {
-    background: rgba(185, 173, 255, 0.3);
+    background: rgba(88, 61, 123, 0.6);
     color: #FFFFFF;
-    border-bottom: 1px solid #8282ff;
+    border-bottom: none;
     border-radius: 3px;
+    box-shadow: none;
+}
+.form .control-group input[type=email],
+.form .control-group input[type=password],
+.form .control-group input[type=text],
+.form .control-group textarea::-webkit-input-placeholder {
+    color: #fff;
 }
 .form .control-group input[type=email]:focus,
 .form .control-group input[type=password]:focus,
@@ -2003,8 +2008,9 @@ a:link {
 .private-channels .search-bar {
     background: rgba(10, 13, 16, 0) !important;
 }
-.private-channels .search-bar input {
-    background: rgba(0, 0, 0, 0.4) !important;
+.private-channels .search-bar .search-bar-inner {
+    background-color: rgba(88, 61, 123, 0.6);
+    border: 1px solid #FFC0CB!important;
 }
 .search-bar-clear:before {
     background: rgba(0, 0, 0, 0.68);
@@ -2124,11 +2130,6 @@ search-bar-clear {
 #user-profile-modal footer .btn.add-friend {
     webkit-animation: friend-request-pulse 1.5s infinite;
     animation: friend-request-pulse 1.5s infinite;
-}
-.private-channels .search-bar input:focus {
-    border: 2px solid #FFC0CB;
-    webkit-animation: input-pulse 1.5s infinite;
-    animation: input-pulse 1.5s infinite;
 }
 
 @-webkit-keyframes popout-pulse {
@@ -2313,10 +2314,6 @@ search-bar-clear {
 }
 .tab-bar.TOP .tab-bar-item.selected {
     border-bottom: 2px solid #FFC0CB !important;
-    color: white !important;
-}
-.tab-bar.TOP .tab-bar-item {
-    color: white !important;
 }
 .tab-bar.TOP {
     border-bottom: 1px solid #FFC0CB;
@@ -2574,11 +2571,8 @@ div.control-group .shortcut-recorder input[type=text] {
     border-bottom: 2px solid #8282ff;
 }
 .need-help-modal .footer {
-    background-color: rgba(125, 0, 0, 0.7);
-    border-top: 1px solid #C30606;
-}
-.need-help-modal .header {
-    background-color: rgba(159, 0, 0, 0.76);
+    background-color: #FFC0CB;
+    border-top: 1px solid #FFC0CB!important
 }
 .form .control-group label {
     font-size: 11px;
