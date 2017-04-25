@@ -20,6 +20,9 @@
 .messages .markup:not([data-colour="true"]) {
     color: #fff !important;
 }
+.search-result .message-group .comment .markup {
+    color: #737f8d !important;
+}
 .message-group .comment .markup {
     color: #FFF;
 }
