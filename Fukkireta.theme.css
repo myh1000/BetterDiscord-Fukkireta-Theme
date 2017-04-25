@@ -516,7 +516,7 @@ a:link {
     color: white !important;
 }
 .public-DraftEditorPlaceholder-root {
-    color: white !important;
+    color: #FFC0CB !important
 }
 .tooltip {
     background-color: #FFC0CB;
@@ -795,6 +795,24 @@ a:link {
 .channel-textarea-emoji>.sprite-item,
 .channel-textarea-emoji.popout-open .sprite-item {
   background-image:url(https://a.pomf.cat/iyqmjn.png)!important;
+}
+.emoji-picker {
+    background: #FFC0CB;
+}
+.emoji-picker .search-bar.search-bar-light {
+    background-color: transparent;
+}
+.emoji-picker .search-bar.search-bar-light .search-bar-inner {
+    background-color: rgba(88, 61, 123, 0.6);
+}
+.emoji-picker .search-bar.search-bar-light .search-bar-inner input{
+    color: #fff
+}
+.emoji-picker .sticky-header {
+    background: rgba(255, 192, 203, .9);
+}
+.emoji-picker .search-bar-inner::-webkit-input-placeholder{
+    color: #fff!important;
 }
 .emoji-picker .categories .item.selected {
     border-bottom-color: #9C0505;
@@ -1173,7 +1191,7 @@ a:link {
     color: #e6e6fa;
     background: #FFC0CB;
 }
-.search-bar.search-bar-light {
+.search .search-bar.search-bar-light {
     background-color: rgba(88, 61, 123, 0.6);
     box-shadow: none;
     border: 1px solid #FFC0CB !important;
@@ -1553,18 +1571,15 @@ a:link {
 }
 
 /* Scroller Settings */
-.scroller-wrap .scroller {
-    overflow-y: scroll;
-}
 .theme-dark .chat>.content:first-child .scroller-wrap::-webkit-scrollbar-thumb {
     background-color: #FFC0CB;
 }
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
-    background-color: #FFC0CB!important;
+    background-color: rgba(255, 192, 203, 0.58);
     border: 3px solid rgba(211, 5, 5, 0) !important;
 }
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-    background-color: #FFC0CB!important;
+    background-color: rgba(255, 192, 203, 0.58);
     border: 3px solid rgba(211, 5, 5, 0) !important;
 }
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
@@ -1590,8 +1605,7 @@ a:link {
 .radio-inner {
     background: rgba(93, 86, 154, 0.6);
 }
-.settings .settings-inner,
-.scroller.settings-wrapper.settings-panel {
+.settings .settings-inner {
     background: rgba(255, 192, 203, 0.58);
 }
 .Select-value {
@@ -1602,10 +1616,13 @@ a:link {
     background: rgba(229, 172, 182, 0.9);
 }
 .settings-section.control-groups {
-    background-color: rgba(109, 97, 170, 0.7);
+    background-color: transparent;
+}
+.notification-settings-modal .notification-settings-modal-channel-settings-header label {
+    color: white;
 }
 .notification-settings-modal-channel-settings-header {
-    background-color: rgb(79, 74, 138);
+    background-color: rgba(229, 172, 182, 0.9);
 }
 .form-header,
 .form-inner,
@@ -1756,6 +1773,35 @@ a:link {
 }
 .user-settings-modal-account .discord-tag {
     color: #FFC0CB !important;
+}
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list h3{
+    color: #fff;
+}
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list .user-settings-modal-accounts-list-description .user-settings-modal-accounts-list-description-inner {
+    color: #fff;
+}
+.empty-state p {
+    color: #fff !important;
+}
+.user-settings-modal .safety-level-select .radio-group li .criteria {
+    color: #B6BBC1;
+}
+.user-settings-modal-security button, .user-settings-modal-security p {
+    color: #fff;
+}
+.user-settings-modal-locale p {
+    color: #fff;
+}
+.user-settings-modal-locale .select-item .primary, .user-settings-modal-locale .select-item .localized {
+    color: white!important;
+}
+.user-settings-modal-security .btn-ghost {
+    border: 2px solid #FFC0CB!important;
+    background-color: #FFC0CB!important
+}
+.user-settings-modal-security .btn-ghost:hover {
+    border: 2px solid #8282ff!important;
+    background-color: #8282ff !important;
 }
 .friends-column {
     color: #fff !important;
@@ -2535,7 +2581,7 @@ div.control-group .shortcut-recorder input[type=text] {
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #8282ff;
+    color: #fff;
     display: block;
 }
 .form .btn-default {
