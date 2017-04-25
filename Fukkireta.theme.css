@@ -736,12 +736,8 @@ a:link {
 #user-profile-modal .btn:hover {
     background-color: #8282ff;
 }
-#user-profile-modal .header {
-    background-color: rgba(30, 26, 41, 0.78);
-    background-image: none;
-}
 #user-profile-modal .tab-bar-container {
-    background-color: rgba(30, 26, 41, 0.78);
+    background-color: rgba(255, 192, 203, .9);
     border-bottom: none;
 }
 #user-profile-modal .guilds .section .section-header {
@@ -797,7 +793,7 @@ a:link {
   background-image:url(https://a.pomf.cat/iyqmjn.png)!important;
 }
 .emoji-picker {
-    background: #FFC0CB;
+    background: rgba(255, 192, 203, .9);
 }
 .emoji-picker .search-bar.search-bar-light {
     background-color: transparent;
@@ -809,7 +805,7 @@ a:link {
     color: #fff
 }
 .emoji-picker .sticky-header {
-    background: rgba(255, 192, 203, .9);
+    background: rgba(255, 192, 203, .4);
 }
 .emoji-picker .search-bar-inner::-webkit-input-placeholder{
     color: #fff!important;
@@ -908,6 +904,10 @@ a:link {
 .option-popout .btn-item:hover {
     color: #8282ff;
 }
+.user-popout .header {
+    background: none;
+    background-color: rgba(255, 192, 203, .9);
+}
 .user-popout .user-popout-options .btn {
     background-color: #FFC0CB;
     border: 1px solid #FFC0CB;
@@ -965,7 +965,7 @@ a:link {
     color: #e9a4b5;
 }
 .user-popout .username-wrapper .activity {
-    color: #91bbfd;
+    color: #fff;
 }
 .user-popout .username-wrapper .discord-tag, .user-popout .username-wrapper .nickname, .user-popout .username-wrapper .username {
     color: #fff !important;
@@ -1018,7 +1018,7 @@ a:link {
     border-radius: 10% !important;
 }
 .user-popout .avatar-wrapper .avatar-hint {
-    border-radius: 10% !important;
+    border-radius: 5% !important;
 }
 .user-popout .avatar-wrapper:hover .avatar-hint {
     box-shadow: #ffe6e6;
@@ -1443,6 +1443,9 @@ a:link {
     box-shadow: inset 10px 5px 5px -6px rgb(76,65,109);
 }
 .channel-members .member:hover {
+    background: rgba(255, 255, 255, 0.07) !important;
+}
+.channel-members .member:not(.disabled).popout-open, .channel-members .member:not(.disabled):hover {
     background: rgba(255, 255, 255, 0.07) !important;
 }
 .channel-members .member .member-username {
