@@ -11,7 +11,7 @@
     background: url("https://i.imgur.com/NUhSyNd.jpg");
     background-size: cover;
 }
-.layers {
+.theme-light .layer, .theme-light .layers, .theme-dark .layer, .theme-dark .layers {
     background: transparent !important;
 }
 
