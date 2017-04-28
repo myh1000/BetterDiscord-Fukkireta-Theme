@@ -116,11 +116,11 @@
     text-decoration: underline;
 }
 .mention {
-    background: #9B9BFF;
+    background: #9B9BFF!important;
     color: white;
 }
 .mentioned .highlight:hover {
-    color: #FFC0CB;
+    color: #FFC0CB!important;
     text-decoration: underline;
 }
 .highlight {
